@@ -16,10 +16,15 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
     var a: String? = "";
+//    lateinit var name: String?
+    lateinit var name1: String
+    var name2: String?=null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         var a: String;
+        lateinit var name: String
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
